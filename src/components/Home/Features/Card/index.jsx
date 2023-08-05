@@ -53,6 +53,7 @@ const CardList = () => {
           (x, i) => i * (width * 0.9 - 40) + (i - 1) * 40
         )}
         /> 
+        <CardsInfo />
        </Container>
     );
 };
