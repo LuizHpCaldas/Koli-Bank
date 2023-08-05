@@ -12,31 +12,31 @@ const CardsInfo = () => {
 
             <InfoContainer>
                 <InfoTitle>PROXIMAS FATURAS </InfoTitle>
-                <InfoContent color={"black"}>R$ 640,00 </InfoContent>
+                <InfoContent color={"#000000"}>R$ 640,00 </InfoContent>
             </InfoContainer>
 
             </Container>
 
             <Container>
-                <Button background={"#d8d8d8"}> 
-                    <ButtonText> ANTECIPAR </ButtonText>
+                <Button background={"#F5C6C7"}> 
+                    <ButtonText color={"#E53D41"}> VER FATURA </ButtonText>
                 </Button>
 
             <InfoContainer>
-                <InfoTitle>PROXIMAS FATURAS </InfoTitle>
-                <InfoContent color={"black"}>R$ 640,00 </InfoContent>
+                <InfoTitle>LIMITE DISPONIVEL </InfoTitle>
+                <InfoContent color={"#E53D41"}>R$ 2640,00 </InfoContent>
             </InfoContainer>
 
             </Container>
 
             <Container>
-                <Button background={"#d8d8d8"}> 
-                    <ButtonText> ANTECIPAR </ButtonText>
+                <Button background={"#98E9D4"}> 
+                    <ButtonText color={"#00BA80"}> VER FATURA </ButtonText>
                 </Button>
 
             <InfoContainer>
-                <InfoTitle>PROXIMAS FATURAS </InfoTitle>
-                <InfoContent color={"black"}>R$ 640,00 </InfoContent>
+                <InfoTitle>LIMITE ATUAL </InfoTitle>
+                <InfoContent color={"#00BA80"}>R$ 6540,00 </InfoContent>
             </InfoContainer>
 
             </Container>

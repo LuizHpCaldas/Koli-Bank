@@ -2,6 +2,7 @@ import {View, Text, FlatList, Dimensions} from "react-native";
 import React from "react";
 import { Container, Title } from "./styled";
 import CardItem from "./CardItem";
+import CardsInfo from "./CardsInfo";
 
 const Cards = [
     {
