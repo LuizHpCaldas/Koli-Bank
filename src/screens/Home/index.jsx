@@ -6,7 +6,7 @@ import MoneyBalance from "../../components/Home/MoneyBalance";
 import SelectFeatures from "../../components/Home/SelectFeatures";
 import CardList from "../../components/Home/Features/Card";
 import CardItem from "../../components/Home/Features/Card/CardItem";
-
+import Pix from "../../components/Home/Features/Pix";
 const Home = () => {
 
   const [currentFeature, setCurrentFeature] = useState("Cards");
@@ -28,7 +28,7 @@ const Home = () => {
               ) : currentFeature === "Transfer" ? (
                 <Text>Transfer</Text>
               ) : (
-                <Text>Pix</Text>
+                <Pix />
               )}
             
        </Container> 
