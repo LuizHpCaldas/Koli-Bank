@@ -10,14 +10,14 @@ const Pix = () => {
         <Label>
             Qual o valor a ser enviado?
         </Label>
-        <Input placeholder={"R$ 230,00"} keyBoardType="number-pad" />
+        <Input placeholder={"R$ 230,00"} keyboardType="number-pad" />
       </Field>
 
       <Field>
         <Label>
             Qual chave Pix?
         </Label>
-        <Input placeholder={"CPNF, CNPJ, TELEFONE OU EMAIL?"} keyBoardType="number-pad" />
+        <Input placeholder={"CPNF, CNPJ, TELEFONE OU EMAIL?"} />
       </Field>
       <Button>
         <ButtonText>
